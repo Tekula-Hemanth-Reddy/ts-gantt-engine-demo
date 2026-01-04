@@ -1,0 +1,350 @@
+/* Container Styles */
+.readme-container {
+  background-color: #ffffff;
+}
+
+.readme-wrapper {
+  margin: 0 auto;
+  padding: 48px 24px;
+  background-color: #ffffff;
+}
+
+/* Header Styles */
+.readme-header {
+  margin-bottom: 48px;
+}
+
+.readme-subtitle {
+  font-size: 1.25rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.readme-description {
+  font-size: 1.125rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+/* Divider */
+.readme-divider {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 32px 0;
+}
+
+/* Section Styles */
+.readme-section {
+  margin-bottom: 48px;
+}
+
+.section-heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.subsection-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 16px;
+}
+
+.subsection-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 12px;
+}
+
+.section-text {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* Features Section */
+.features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feature-block {
+  margin-bottom: 8px;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.feature-description {
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.feature-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #4a5568;
+  margin-left: 16px;
+}
+
+.feature-list li {
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+/* Installation Section */
+.installation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.install-block {
+  margin-bottom: 8px;
+}
+
+.install-method {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+/* Code Blocks */
+.code-block {
+  background-color: #1a202c;
+  color: #e2e8f0;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.code-block code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  white-space: pre;
+}
+
+.code-block-small code {
+  font-size: 0.875rem;
+}
+
+.code-block-large code {
+  font-size: 0.875rem;
+}
+
+.inline-code {
+  background-color: #f7fafc;
+  color: #2d3748;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+}
+
+.code-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* API Reference Section */
+.api-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.api-block {
+  margin-bottom: 16px;
+}
+
+.api-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.methods-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.method-block {
+  margin-bottom: 8px;
+}
+
+.method-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.method-description {
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+/* Type Definitions Section */
+.types-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.type-block {
+  margin-bottom: 16px;
+}
+
+.type-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+/* Customization Examples Section */
+.examples-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.example-block {
+  margin-bottom: 16px;
+}
+
+.example-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+/* Lists */
+.roadmap-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #4a5568;
+  margin-left: 16px;
+}
+
+.roadmap-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.use-cases-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #4a5568;
+  margin-left: 16px;
+}
+
+.use-cases-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.links-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #4a5568;
+  margin-left: 16px;
+}
+
+.links-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.support-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #4a5568;
+  margin-left: 16px;
+}
+
+.support-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Links */
+.link-button {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.readme-footer {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.footer-quote {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #4a5568;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .readme-wrapper {
+    padding: 24px 16px;
+  }
+
+  .readme-title {
+    font-size: 2rem;
+  }
+
+  .readme-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .subsection-heading {
+    font-size: 1.25rem;
+  }
+
+  .code-block {
+    padding: 12px;
+  }
+
+  .code-block code {
+    font-size: 0.75rem;
+  }
+}
+
+/* Strong elements */
+strong {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+/* Emphasis */
+em {
+  font-style: italic;
+}
