@@ -623,7 +623,7 @@ engine.render(headers, tasks, options, relationColors);`}</code>
                 ts-gantt-engine
               </a>
             </li>
-            <li>
+            {/* <li>
               <strong>CDN</strong>:{" "}
               <a
                 href="https://tekula-hemanth-reddy.github.io/ts-gantt-engine/dist/index.js"
@@ -633,7 +633,7 @@ engine.render(headers, tasks, options, relationColors);`}</code>
               >
                 https://tekula-hemanth-reddy.github.io/ts-gantt-engine/dist/index.js
               </a>
-            </li>
+            </li> */}
             <li>
               <strong>GitHub</strong>:{" "}
               <a
